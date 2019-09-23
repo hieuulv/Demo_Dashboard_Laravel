@@ -1,4 +1,4 @@
-@extends('layouts.app_registering_login')
+@extends('auth.layouts.app_registering_login')
 @section('title', 'Create an Account!')
 
 @section('content')

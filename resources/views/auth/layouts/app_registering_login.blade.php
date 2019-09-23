@@ -7,13 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>@yield('title')</title>
     {{---------------------- css ----------------------}}
-    @include('layouts.registering_login.top_asset')
+    @include('auth.layouts.include_registering_login.top_asset')
     {{----------------------end css ----------------------}}
 </head>
 <body class="off-canvas-sidebar">
 
 {{---------------------menu---------------------}}
-@include('layouts.registering_login.nav_login_logout')
+@include('auth.layouts.include_registering_login.nav_login_logout')
 {{---------------------end menu---------------------}}
 
 {{---------------------content---------------------}}
@@ -21,7 +21,7 @@
 {{---------------------end content--------------------}}
 
 {{-------------------------------js-------------------------------}}
-@include('layouts.registering_login.bottom_asset')
+@include('auth.layouts.include_registering_login.bottom_asset')
 {{-------------------------------end js-------------------------------}}
 
 
